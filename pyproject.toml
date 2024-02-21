@@ -18,7 +18,7 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.codeflash]
-root = "."
-test-root = "tests"
+module-root = "."
+tests-root = "tests"
 test-framework = "pytest"
 ignore-paths = []
