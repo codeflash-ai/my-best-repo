@@ -30,4 +30,4 @@ jobs:
         id: optimize_code
         run: |
           poetry env use python 
-          poetry run codeflash --test-framework unittest --test-root code_to_optimize/tests/unittest
+          poetry run codeflash 

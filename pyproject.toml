@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "my-best-repo"
+version = "0.1.0"
+description = ""
+authors = ["afik.cohen <aphexsa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.dependencies.codeflash]
+url = "https://www.dropbox.com/scl/fi/cc9wktjof4fx6888l2kxe/codeflash-0.0.0-py3-none-any.whl?rlkey=d5jpchx11vlj3l959faw8uqgh&dl=1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.codeflash]
+module-root = "."
+tests-root = "tests"
+test-framework = "pytest"
+ignore-paths = []
