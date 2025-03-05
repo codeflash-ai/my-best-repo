@@ -1,0 +1,1 @@
+def find_common_tags(articles: list[dict[str, list[str]]]) -> set[str]
