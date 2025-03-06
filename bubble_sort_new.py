@@ -1,0 +1,1 @@
+def fct(articles: list[dict[str, list[str]]]) -> set[str]
