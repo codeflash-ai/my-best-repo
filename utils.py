@@ -2,7 +2,7 @@ def calculate_sum(numbers):
     """Calculate the sum of numbers - slow implementation"""
     result = 0
     for num in numbers:
-        result = result + num
+        result += num
     return result
 
 
